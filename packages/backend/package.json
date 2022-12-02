@@ -1,0 +1,37 @@
+{
+    "name": "@electrovir/backend",
+    "version": "0.0.0",
+    "private": true,
+    "license": "MIT",
+    "author": {
+        "name": "electrovir",
+        "url": "https://github.com/electrovir"
+    },
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "scripts": {
+        "compile": "tsc --pretty",
+        "start": "nodemon --config ./configs/nodemon.json -q --delay 500ms src/index.ts",
+        "test": "virmator test"
+    },
+    "dependencies": {
+        "@augment-vir/common": "^5.0.1",
+        "cors": "^2.8.5",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@electrovir/nyc": "^15.1.0",
+        "@istanbuljs/nyc-config-typescript": "^1.0.2",
+        "@types/chai": "^4.3.4",
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.14",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "^18.11.10",
+        "chai": "^4.3.7",
+        "istanbul-smart-text-reporter": "^1.0.1",
+        "mocha": "^10.1.0",
+        "mocha-spec-reporter-with-file-names": "^0.0.2",
+        "nodemon": "^2.0.20",
+        "tsx": "^3.12.1"
+    }
+}

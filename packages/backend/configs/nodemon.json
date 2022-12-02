@@ -1,0 +1,8 @@
+{
+    "exec": "tsx",
+    "watch": [
+        "./src",
+        "../database/src",
+        "../shared/src"
+    ]
+}

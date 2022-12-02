@@ -1,0 +1,11 @@
+{
+    "extends": "virmator/base-configs/base-tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "emitDecoratorMetadata": true,
+        "declarationMap": true,
+        "noEmitOnError": false,
+        "incremental": true
+    },
+    "exclude": ["./node_modules"]
+}
